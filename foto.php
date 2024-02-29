@@ -85,7 +85,7 @@ if (isset($_GET['fotoid'])) {
 
 <body>
 <?php  
-include "layout/header.html";
+include "layout/header_admin.html";
 ?>
 
 <main class="flex-shrink-0">

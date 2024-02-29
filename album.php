@@ -46,9 +46,9 @@ if (isset($_GET['albumid'])) {
   
 <?php 
 include "layout/header_admin.html";
- ?>
+  ?>
 
- <!-- Begin page content -->
+  <!-- Begin page content -->
 <main class="flex-shrink-0">
   <div class="container mb-5">
     <h1 class="mt-2">Selamat datang <?= $_SESSION['namalengkap'] ?> </h1>
@@ -115,7 +115,5 @@ include "layout/header_admin.html";
 
 
 <?php
-include "layout/header_admin.html"
+include "layout/footer.html"
 ?>
-    
-    
